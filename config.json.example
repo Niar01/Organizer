@@ -1,0 +1,17 @@
+{
+  "downloads_dir": "~/Downloads",
+  "delay_seconds": 300,
+  "sample_interval": 3,
+  "max_retries": 5,
+  "extensions": {
+    "Documentos": [".txt", ".pdf", ".doc", ".docx", ".odt", ".md"],
+    "Hojas de calculo": [".xls", ".xlsx", ".csv", ".ods"],
+    "Comprimidos": [".tar", ".tar.gz", ".zip", ".rar", ".7z", ".gz", ".xz"],
+    "Imagenes": [".jpg", ".jpeg", ".png", ".gif", ".svg", ".webp", ".bmp"],
+    "Audio": [".mp3", ".wav", ".flac", ".ogg"],
+    "Video": [".mp4", ".mkv", ".avi", ".mov", ".webm"],
+    "Ejecutables y paquetes": [".AppImage", ".deb", ".rpm", ".pkg.tar.zst"]
+  },
+  "other_category": "Otros",
+  "ignore_extensions": [".part", ".crdownload", ".tmp"]
+}
